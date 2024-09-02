@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    background-image: url('image/\ food1.jpeg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-wrapper {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-wrapper h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero-wrapper p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-wrapper .form-code {
+    margin-top: 20px;
+}
+
+.hero-wrapper .form-code input {
+    border-radius: 300px;
+    height: 50px;
+    width: 800px;
+    padding-left: 40px;
+    outline: none;
+    border: none;
+}
+
+.hero-wrapper .form-code button {
+    border-radius: 300px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: aquamarine;
+    color: black;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero-wrapper .form-code button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.product-title {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+.product {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    text-align: center;
+    margin: 10px;
+    flex: 1 0 21%; /* Responsive 4 items in a row */
+    box-sizing: border-box;
+}
+
+.product-heading {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product-item p {
+    margin: 10px 0;
+    font-size: 16px;
+}
